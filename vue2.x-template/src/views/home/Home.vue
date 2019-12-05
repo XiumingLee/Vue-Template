@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h3>这里是首页</h3>
+      <!--<h1>{{ msg }}</h1>-->
+      <h3>这里是首页</h3>
+      <router-link to="/request">Request页面</router-link>
   </div>
 </template>
 

@@ -9,7 +9,14 @@ const constantRouterMap = [
         component:()=>import('@/views/home/Home.vue'),
         meta:{ title:'首页' },
         hidden: true
-    }
+    },
+    {
+        path:'/request',
+        component:()=>import('@/views/request-test/request-test'),
+        meta:{ title:'request' },
+        hidden: true
+    },
+
 ]
 
 export default new Router({

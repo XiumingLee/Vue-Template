@@ -1,6 +1,5 @@
 // 导航卫士
 import router from './index'
-import {RouteConfig} from "vue-router";
 
 // 白名单
 const whiteList = ['/login','search']
