@@ -2,7 +2,7 @@
 module.exports = {
     // 打包输出路径,默认就是当前目录的dist文件夹
     outputDir:"dist",
-    devServer: {
+    devServer: {  // 请求地址代理转发
         proxy: 'http://localhost:8080'
     }
 }
